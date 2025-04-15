@@ -34,7 +34,7 @@ LinPeek is a comprehensive post-exploitation toolkit for Linux systems, designed
 
 ```bash
 git clone https://github.com/shellkraft/linpeek.git
-cd linpeek
+cd LinPeek
 pip install -r requirements.txt
 ```
 ---
