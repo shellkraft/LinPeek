@@ -3,8 +3,6 @@ import argparse
 from rich.console import Console
 from rich.panel import Panel
 from rich import box
-
-# Import updated modules (make sure these are refactored with Rich too)
 from core.enumerator import check_suid, check_cron, check_docker, check_environment
 from core.privesc import check_kernel_exploits, check_sudo_perms, check_writable_system_files
 from core.creds import loot_proc, scan_history, find_ssh_keys
@@ -17,9 +15,8 @@ console = Console()
 
 def banner():
     console.print(Panel.fit("""
-     [bold cyan]LinPeek[/bold cyan] - [white]Linux Post-Exploitation Toolkit[/white]
-
-    """, title="LinPeek", subtitle="By shellkraft", box=box.HEAVY))
+[bold red]LinPeek[/bold red] - [bold red]Linux Post-Exploitation Toolkit[/bold red]
+""", title="LinPeek", subtitle="By shellkraft", box=box.HEAVY))
 
 
 def main():
