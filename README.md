@@ -1,7 +1,9 @@
+
+
+<img src="https://github.com/user-attachments/assets/8fb086f3-341d-4383-9ae8-7e8808a6142f" width="400" alt="LinPeek Banner">
+
 # LinPeek - Linux Post-Exploitation Toolkit
-
-![image](https://github.com/user-attachments/assets/8fb086f3-341d-4383-9ae8-7e8808a6142f)
-
+---
 
 LinPeek is a comprehensive post-exploitation toolkit for Linux systems, designed for security professionals to assess system security, identify privilege escalation vectors, harvest credentials, and establish persistence.
 
@@ -38,12 +40,12 @@ pip install -r requirements.txt
 ---
 
 ## Usage
-```bash
+```
 python linpeek.py [options]
 ```
 
 ## Options:
-```
+```bash
 --enum: Basic system enumeration
 
 --privesc: Privilege escalation checks
